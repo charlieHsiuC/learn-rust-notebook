@@ -19,7 +19,7 @@ learn-rust-notebook/
 │   ├── lib.rs
 │   └── q0000_sample/
 │       ├── mod.rs 
-│       ├── solution.rs      # 最終程式碼
+│       ├── solution.rs      # LLM 建議程式碼
 │       ├── draft.rs         # 初始版本
 │       └── notes.md         # LLM 的建議與心得
 ├── prompt/
@@ -29,11 +29,12 @@ learn-rust-notebook/
 
 ## 進度追蹤表
 
-| # | Title | Difficulty | Key Rust Concept |
-| --- | --- | --- | --- |
-| 0000 | sample | Easy | cargo test, #\[cfg(test)\] |
-| 0001 | repeated substring pattern | Easy | Iterators, Slices, chunks_exact |
-| 0002 | rotate string | Easy | String vs &str, Borrowing, String Slicing |
+| #    | Title                      | Difficulty | Key Rust Concept                          |
+|------|----------------------------|------------|-------------------------------------------|
+| 0000 | sample                     | Easy       | cargo test, #\[cfg(test)\]                |
+| 0001 | repeated substring pattern | Easy       | Iterators, Slices, chunks_exact           |
+| 0002 | rotate string              | Easy       | String vs &str, Borrowing, String Slicing |
+| 0003 | repeated string match      | Medium     | with_capacity, contains                   |
 
 ## Prompt
 
