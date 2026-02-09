@@ -29,12 +29,13 @@ learn-rust-notebook/
 
 ## 進度追蹤表
 
-| #    | Title                      | Difficulty | Key Rust Concept                          |
-|------|----------------------------|------------|-------------------------------------------|
-| 0000 | sample                     | Easy       | cargo test, #\[cfg(test)\]                |
-| 0001 | repeated substring pattern | Easy       | Iterators, Slices, chunks_exact           |
-| 0002 | rotate string              | Easy       | String vs &str, Borrowing, String Slicing |
-| 0003 | repeated string match      | Medium     | with_capacity, contains                   |
+| #    | Title                      | Difficulty | Key Rust Concept                                 |
+|------|----------------------------|------------|--------------------------------------------------|
+| 0000 | sample                     | Easy       | cargo test, #\[cfg(test)\]                       |
+| 0001 | repeated substring pattern | Easy       | Iterators, Slices, chunks_exact                  |
+| 0002 | rotate string              | Easy       | String vs &str, Borrowing, String Slicing        |
+| 0003 | repeated string match      | Medium     | with_capacity, contains                          |
+| 0004 | number of valid subarrays  | Medium     | Monotonic Stack, Borrowing (`&[i32]`), while let |
 
 ## Prompt
 
