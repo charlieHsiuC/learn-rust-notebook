@@ -1,7 +1,7 @@
 # learn-rust-notebook
 
 ![Rust Version](https://img.shields.io/badge/rust-1.75%2B-orange.svg)
-![Learning Progress](https://img.shields.io/badge/LeetCode-1%2F2000-blue)
+![Learning Progress](https://img.shields.io/badge/LeetCode-6%2F2000-blue)
 
 My journey of learning Rust via LeetCode Quest, using AI to transform functional solutions into high-performance, idiomatic code.
 
@@ -29,13 +29,14 @@ learn-rust-notebook/
 
 ## 進度追蹤表
 
-| #    | Title                      | Difficulty | Key Rust Concept                                 |
-|------|----------------------------|------------|--------------------------------------------------|
-| 0000 | sample                     | Easy       | cargo test, #\[cfg(test)\]                       |
-| 0001 | repeated substring pattern | Easy       | Iterators, Slices, chunks_exact                  |
-| 0002 | rotate string              | Easy       | String vs &str, Borrowing, String Slicing        |
-| 0003 | repeated string match      | Medium     | with_capacity, contains                          |
-| 0004 | number of valid subarrays  | Medium     | Monotonic Stack, Borrowing (`&[i32]`), while let |
+| #    | Title                        | Difficulty | Key Rust Concept                                 |
+|------|------------------------------|------------|--------------------------------------------------|
+| 0000 | sample                       | Easy       | cargo test, #\[cfg(test)\]                       |
+| 0001 | repeated substring pattern   | Easy       | Iterators, Slices, chunks_exact                  |
+| 0002 | rotate string                | Easy       | String vs &str, Borrowing, String Slicing        |
+| 0003 | repeated string match        | Medium     | with_capacity, contains                          |
+| 0004 | number of valid subarrays    | Medium     | Monotonic Stack, Borrowing (`&[i32]`), while let |
+| 0005 | buildings with an ocean view | Medium     | enumerate().rev() vs. rev().enumerate()          |
 
 ## Prompt
 
