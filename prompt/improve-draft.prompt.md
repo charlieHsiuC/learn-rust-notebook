@@ -1,8 +1,6 @@
 I am solving the LeetCode question.
-[Question Description] 
 
-Here is my initial Rust draft (which might be influenced by other languages):
-[Insert Code Here]
+My initial Rust draft is in "impl Draft" of solution.rs(which might be influenced by other languages)
 
 Please provide a comprehensive review including:
 
@@ -13,3 +11,7 @@ Please provide a comprehensive review including:
 5. **Key Rust Concept:** Provide some keywords about the key Rust Concept I might learn after the review.
 
 Please be critical but constructive.
+
+Update the review to the notes.md and Add optimal implementation to "impl Solution" of solution.rs
+
+Update Key Rust Concept to "進度追蹤表" in README.md
