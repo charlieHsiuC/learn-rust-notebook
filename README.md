@@ -1,7 +1,7 @@
 # learn-rust-notebook
 
 ![Rust Version](https://img.shields.io/badge/rust-1.75%2B-orange.svg)
-![Learning Progress](https://img.shields.io/badge/LeetCode-7%2F2000-blue)
+![Learning Progress](https://img.shields.io/badge/LeetCode-8%2F2000-blue)
 
 My journey of learning Rust via LeetCode Quest, using AI to transform functional solutions into high-performance, idiomatic code.
 
@@ -38,6 +38,7 @@ learn-rust-notebook/
 | 0004 | number of valid subarrays          | Medium     | Monotonic Stack, Borrowing (`&[i32]`), while let |
 | 0005 | buildings with an ocean view       | Medium     | enumerate().rev() vs. rev().enumerate()          |
 | 0006 | finding number of visible mounains | Medium     | sort_unstable_by, Custom Ordering                |
+| 0007 | odd-even linked list                | Medium     | Option::take, mutable borrowing, pointer re‑wire |
 
 ## Prompt
 
