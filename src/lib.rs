@@ -7,3 +7,4 @@ pub mod q0005_buildings_with_an_ocean_view;
 pub mod q0006_finding_number_of_visible_mounains;
 pub mod q0007_odd_even_linked_list;
 pub mod q0008_reverse_linked_list;
+pub mod q0009_search_in_rotated_sorted_array;

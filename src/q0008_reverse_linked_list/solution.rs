@@ -1,5 +1,3 @@
-use crate::q0000_sample::solution;
-
 struct Draft;
 struct Solution;
 
@@ -7,16 +5,13 @@ struct Solution;
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
     pub val: i32,
-    pub next: Option<Box<ListNode>>
+    pub next: Option<Box<ListNode>>,
 }
 
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val
-        }
+        ListNode { next: None, val }
     }
 }
 
@@ -33,8 +28,8 @@ impl Draft {
                 }
 
                 Some(node)
-            },
-            None => None
+            }
+            None => None,
         }
     }
 }
@@ -46,8 +41,8 @@ impl Solution {
 
         while let Some(mut node) = current {
             current = node.next.take(); // Save next node and detach connection
-            node.next = prev;           // Point current node backwards
-            prev = Some(node);          // Move prev to current
+            node.next = prev; // Point current node backwards
+            prev = Some(node); // Move prev to current
         }
         prev
     }
@@ -55,7 +50,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use super::{Draft, Solution, ListNode};
+    use super::{Draft, ListNode, Solution};
 
     // helper utilities for building and inspecting lists
     fn build_list(vals: &[i32]) -> Option<Box<ListNode>> {
@@ -81,9 +76,9 @@ mod tests {
     fn draft_works() {
         let list = build_list(&[1, 2, 3, 4, 5]);
         let out = Draft::reverse_list(list);
-        assert_eq!(list_to_vec(out), vec![5,4,3,2,1]);
+        assert_eq!(list_to_vec(out), vec![5, 4, 3, 2, 1]);
 
-        let list = build_list(&[1,2]);
+        let list = build_list(&[1, 2]);
         let out = Draft::reverse_list(list);
         assert_eq!(list_to_vec(out), vec![2, 1]);
 
@@ -96,9 +91,9 @@ mod tests {
     fn solution_works() {
         let list = build_list(&[1, 2, 3, 4, 5]);
         let out = Solution::reverse_list(list);
-        assert_eq!(list_to_vec(out), vec![5,4,3,2,1]);
+        assert_eq!(list_to_vec(out), vec![5, 4, 3, 2, 1]);
 
-        let list = build_list(&[1,2]);
+        let list = build_list(&[1, 2]);
         let out = Solution::reverse_list(list);
         assert_eq!(list_to_vec(out), vec![2, 1]);
 

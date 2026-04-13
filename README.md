@@ -1,7 +1,7 @@
 # learn-rust-notebook
 
 ![Rust Version](https://img.shields.io/badge/rust-1.75%2B-orange.svg)
-![Learning Progress](https://img.shields.io/badge/LeetCode-8%2F2000-blue)
+![Learning Progress](https://img.shields.io/badge/LeetCode-9%2F2000-blue)
 
 My journey of learning Rust via LeetCode Quest, using AI to transform functional solutions into high-performance, idiomatic code.
 
@@ -40,6 +40,7 @@ learn-rust-notebook/
 | 0006 | finding number of visible mounains | Medium     | sort_unstable_by, Custom Ordering                |
 | 0007 | odd-even linked list               | Medium     | Option::take, mutable borrowing, pointer re‑wire |
 | 0008 | reverse linked list                | Easy       | Option::take, while let                          |
+| 0009 | search in rotated sorted array     | Medium     | usize indexing, half-open range, invariant check |
 
 ## Prompt
 
