@@ -8,3 +8,5 @@ pub mod q0006_finding_number_of_visible_mounains;
 pub mod q0007_odd_even_linked_list;
 pub mod q0008_reverse_linked_list;
 pub mod q0009_search_in_rotated_sorted_array;
+pub mod q0010_kth_largest_element_in_array;
+pub mod q0011_sort_an_array;
