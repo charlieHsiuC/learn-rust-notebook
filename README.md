@@ -1,7 +1,7 @@
 # learn-rust-notebook
 
 ![Rust Version](https://img.shields.io/badge/rust-1.75%2B-orange.svg)
-![Learning Progress](https://img.shields.io/badge/LeetCode-11%2F2000-blue)
+![Learning Progress](https://img.shields.io/badge/LeetCode-12%2F2000-blue)
 
 My journey of learning Rust via LeetCode Quest, using AI to transform functional solutions into high-performance, idiomatic code.
 
@@ -43,6 +43,7 @@ learn-rust-notebook/
 | 0009 | search in rotated sorted array     | Medium     | usize indexing, half-open range, invariant check |
 | 0010 | kth largest element in an array    | Medium     | `select_nth_unstable`, Dutch National Flag 3-way partition, `BinaryHeap` + `Reverse<T>`, `&mut [T]` slice recursion |
 | 0011 | sort an array | Medium | `&mut [T]` slice args, `split_at` / `copy_from_slice`, in-place heap sort, iterative sift-down (O(1) stack) |
+| 0012 | insertion sort list | Medium | `Option::take`, `&mut Option<Box<T>>` pointer-to-pointer traversal, stable insertion (`<=`) |
 
 ## Prompt
 
