@@ -1,7 +1,7 @@
 # learn-rust-notebook
 
 ![Rust Version](https://img.shields.io/badge/rust-1.75%2B-orange.svg)
-![Learning Progress](https://img.shields.io/badge/LeetCode-12%2F2000-blue)
+![Learning Progress](https://img.shields.io/badge/LeetCode-13%2F2000-blue)
 
 My journey of learning Rust via LeetCode Quest, using AI to transform functional solutions into high-performance, idiomatic code.
 
@@ -29,21 +29,22 @@ learn-rust-notebook/
 
 ## 進度追蹤表
 
-| #    | Title                              | Difficulty | Key Rust Concept                                 |
-|------|------------------------------------|------------|--------------------------------------------------|
-| 0000 | sample                             | Easy       | cargo test, #\[cfg(test)\]                       |
-| 0001 | repeated substring pattern         | Easy       | Iterators, Slices, chunks_exact                  |
-| 0002 | rotate string                      | Easy       | String vs &str, Borrowing, String Slicing        |
-| 0003 | repeated string match              | Medium     | with_capacity, contains                          |
-| 0004 | number of valid subarrays          | Medium     | Monotonic Stack, Borrowing (`&[i32]`), while let |
-| 0005 | buildings with an ocean view       | Medium     | enumerate().rev() vs. rev().enumerate()          |
-| 0006 | finding number of visible mounains | Medium     | sort_unstable_by, Custom Ordering                |
-| 0007 | odd-even linked list               | Medium     | Option::take, mutable borrowing, pointer re‑wire |
-| 0008 | reverse linked list                | Easy       | Option::take, while let                          |
-| 0009 | search in rotated sorted array     | Medium     | usize indexing, half-open range, invariant check |
-| 0010 | kth largest element in an array    | Medium     | `select_nth_unstable`, Dutch National Flag 3-way partition, `BinaryHeap` + `Reverse<T>`, `&mut [T]` slice recursion |
-| 0011 | sort an array | Medium | `&mut [T]` slice args, `split_at` / `copy_from_slice`, in-place heap sort, iterative sift-down (O(1) stack) |
-| 0012 | insertion sort list | Medium | `Option::take`, `&mut Option<Box<T>>` pointer-to-pointer traversal, stable insertion (`<=`) |
+| #    | Title                                                 | Difficulty | Key Rust Concept                                                                                                 |
+| ---- | ----------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
+| 0000 | sample                                                | Easy       | cargo test, #\[cfg(test)\]                                                                                      |
+| 0001 | repeated substring pattern                            | Easy       | Iterators, Slices, chunks_exact                                                                                 |
+| 0002 | rotate string                                         | Easy       | String vs &str, Borrowing, String Slicing                                                                       |
+| 0003 | repeated string match                                 | Medium     | with_capacity, contains                                                                                         |
+| 0004 | number of valid subarrays                             | Medium     | Monotonic Stack, Borrowing (`&[i32]`), while let                                                                |
+| 0005 | buildings with an ocean view                          | Medium     | enumerate().rev() vs. rev().enumerate()                                                                         |
+| 0006 | finding number of visible mounains                    | Medium     | sort_unstable_by, Custom Ordering                                                                               |
+| 0007 | odd-even linked list                                  | Medium     | Option::take, mutable borrowing, pointer re-wire                                                                |
+| 0008 | reverse linked list                                   | Easy       | Option::take, while let                                                                                         |
+| 0009 | search in rotated sorted array                        | Medium     | usize indexing, half-open range, invariant check                                                                |
+| 0010 | kth largest element in an array                       | Medium     | `select_nth_unstable`, Dutch National Flag 3-way partition, `BinaryHeap` + `Reverse<T>`, `&mut [T]` slice recursion |
+| 0011 | sort an array                                         | Medium     | `&mut [T]` slice args, `split_at` / `copy_from_slice`, in-place heap sort, iterative sift-down (O(1) stack)   |
+| 0012 | insertion sort list                                   | Medium     | `Option::take`, `&mut Option<Box<T>>` pointer-to-pointer traversal, stable insertion (`<=`)                    |
+| 0013 | construct binary tree from inorder postorder traversal | Medium     | `HashMap` preprocessing, index-bounded recursion, postorder reverse traversal                                   |
 
 ## Prompt
 

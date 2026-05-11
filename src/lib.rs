@@ -11,3 +11,4 @@ pub mod q0009_search_in_rotated_sorted_array;
 pub mod q0010_kth_largest_element_in_array;
 pub mod q0011_sort_an_array;
 pub mod q0012_insertion_sort_list;
+pub mod q0013_construct_binary_tree_from_inorder_postorder_traversal;
