@@ -46,7 +46,7 @@ learn-rust-notebook/
 | 0012 | insertion sort list                                   | Medium     | `Option::take`, `&mut Option<Box<T>>` pointer-to-pointer traversal, stable insertion (`<=`)                    |
 | 0013 | construct binary tree from inorder postorder traversal | Medium     | `HashMap` preprocessing, index-bounded recursion, postorder reverse traversal                                   |
 | 0014 | reverse pairs | hard | Divide and Conquer (merge sort), `split_at_mut`, two-pointer cross counting, `i64` overflow-safe compare |
-| 0015 | merge sorted array | Easy | TBD |
+| 0015 | merge sorted array | Easy | backward two-pointer merge, in-place `&mut Vec`, `usize` indexing, immutable borrow for read-only input |
 
 ## Prompt
 
