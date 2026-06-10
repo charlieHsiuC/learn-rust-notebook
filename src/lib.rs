@@ -12,3 +12,5 @@ pub mod q0010_kth_largest_element_in_array;
 pub mod q0011_sort_an_array;
 pub mod q0012_insertion_sort_list;
 pub mod q0013_construct_binary_tree_from_inorder_postorder_traversal;
+pub mod q0014_reverse_pairs;
+pub mod q0015_merge_sorted_array;
